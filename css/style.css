@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+}
+
+button {
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-radius: 50px;
+    padding: 12px 30px;
+    border: 0;
+    color: #fff;
+    background-color: #F3603B;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 15px -5px;
+}
+
+html {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 62.5%;
+    /* cambia la base de 16px a 10px */
+
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5% 10%;
+    align-items: center;
+}
+
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 382px;
+    padding: 0;
+}
+
+header nav ul li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+header nav ul li a {
+    color: #242E52;
+}
+
+.home-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    gap: 5rem;
+}
+
+.home-banner__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 100%;
+}
+
+
+.home-banner__text h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    color: #232C50;
+    letter-spacing: -.3rem;
+    width: 44rem;
+
+}
+
+.home-banner__text p {
+    width: 35rem;
+    margin: 2.8rem 0;
+    
+
+}
+
+.home-banner__img {
+    flex: 1 100%;
+}
+
+.home-banner__img img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 10%;
+    gap: 5rem;
+}
+
+.main__text-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 100%;
+}
+
+.main__text-left h2 {
+    color:#232851;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 3.6rem;
+}
+
+
+
+.main__text-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 100%;
+    font-size: 1.6rem;
+    
+}
+
+.main__text-right article {
+    margin-bottom:2.7rem;
+    position: relative;
+  margin-left: 17%;
+}
+
+.main__text-right h3 {
+    color:#323851;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+    font-size: 1.6rem;
+    align-self: center;
+    padding:1rem 0;
+}
+
+.article__number {
+    color: #fff;
+    background-color: #F3603B;
+    border-radius: 30px;
+    padding:1rem 2.5rem;
+    width: 7rem;
+    position: absolute;
+    left: -22%;
+    text-align: center;
+}
+
+.main__text-right p{
+    color:#B3B2B7;
+    font-weight: 500;
+}
