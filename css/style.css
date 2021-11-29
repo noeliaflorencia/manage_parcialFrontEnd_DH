@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap');
 
 
 
@@ -14,7 +14,6 @@ a {
 
 p {
     font-size: 1.6rem;
-    font-weight: 500;
     line-height: 2.4rem;
 }
 
@@ -172,7 +171,7 @@ main {
 
 .main__text-right p {
     color: #B3B2B7;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .reviews {
@@ -180,10 +179,20 @@ main {
     align-items: center;
     padding: 5% 10%;
     flex-direction: column;
+    text-align: center;
 }
+
+.reviews h2 {
+    font-size: 3.9rem;
+    color:#242E53;
+    text-align: center;
+    margin-bottom: 7.4rem;
+}
+
 
 .reviews button {
     width: 13rem;
+    margin-top:4.5rem;
 }
 
 .reviews__group {
@@ -197,6 +206,35 @@ main {
     align-items: center;
 }
 
+.reviews__item__text  {
+    
+    background-color: #FAFAFA;
+    padding: 4.8rem 2.1rem 3.8rem 2.1rem;
+    height: 25rem;
+    
+}
+
+.reviews__item__text p {
+    color:#B9B9C1;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+.reviews__item__text h3 {
+    
+    color:#3F4868;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding:2.1rem;
+}
+
+.reviews__item img {
+    width: 7rem;
+    height: 7rem;
+    transform: translateY(50%);
+   
+}
+
 .cta {
     background-color: #F3603B;
     display: flex;
@@ -205,25 +243,34 @@ main {
     padding: 5% 10%;
 }
 
-.cta h2 {
+.cta .cta__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta .cta__text span {
     color: #fff;
-    width: 43rem;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 500;
+  
+
 }
 
 footer {
     display: flex;
     padding: 5% 10%;
     justify-content: space-between;
-    background-color: #000;
-    align-items: center;
+    background-color: #1E1E26;
+
+}
+
+.footer__logos img {
+    filter: brightness(0) invert(1);
 }
 
 footer ul {
     padding:0;
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     align-items: flex-start;
     
@@ -231,14 +278,34 @@ footer ul {
 
 footer ul li {
     list-style-type: none;
+    padding-bottom: 1.5rem;
+
+    
 }
 
 footer ul li a {
     color:#fff;
     font-size: 1.6rem;
+    font-weight: 300;
     
-   
+    
 
+}
+
+footer .footer__newsletter .form__mail {
+    border-radius:5rem;
+    padding: 1rem;
+    border:0;
+    margin-right: .9rem;
+    font-size: 1.3rem;
+}
+
+footer .footer__newsletter p {
+
+    margin-top:7rem;
+    color: #8C8C94;
+    font-size: 1.2rem;
+    text-align: right;
 }
 
 .logos__rrss {
