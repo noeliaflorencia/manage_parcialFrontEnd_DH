@@ -91,7 +91,6 @@ header nav ul li a {
     font-weight: 700;
     color: #232C50;
     letter-spacing: -.3rem;
-    width: 44rem;
 
 }
 
@@ -100,6 +99,10 @@ header nav ul li a {
     margin: 2.8rem 0;
 
 
+}
+
+.header-burger {
+    display: none;
 }
 
 .home-banner__img {
@@ -132,6 +135,9 @@ main {
     margin-bottom: 3.6rem;
 }
 
+.main__text-left p {
+    width: 33rem;
+}
 
 
 .main__text-right {
@@ -184,7 +190,7 @@ main {
 
 .reviews h2 {
     font-size: 3.9rem;
-    color:#242E53;
+    color: #242E53;
     text-align: center;
     margin-bottom: 7.4rem;
 }
@@ -192,7 +198,7 @@ main {
 
 .reviews button {
     width: 13rem;
-    margin-top:4.5rem;
+    margin-top: 4.5rem;
 }
 
 .reviews__group {
@@ -206,33 +212,33 @@ main {
     align-items: center;
 }
 
-.reviews__item__text  {
-    
+.reviews__item__text {
+
     background-color: #FAFAFA;
     padding: 4.8rem 2.1rem 3.8rem 2.1rem;
     height: 25rem;
-    
+
 }
 
 .reviews__item__text p {
-    color:#B9B9C1;
+    color: #B9B9C1;
     font-weight: 300;
     line-height: 2.5rem;
 }
 
 .reviews__item__text h3 {
-    
-    color:#3F4868;
+
+    color: #3F4868;
     font-size: 1.6rem;
     font-weight: 700;
-    padding:2.1rem;
+    padding: 2.1rem;
 }
 
 .reviews__item img {
     width: 7rem;
     height: 7rem;
     transform: translateY(50%);
-   
+
 }
 
 .cta {
@@ -252,7 +258,7 @@ main {
     color: #fff;
     font-size: 4rem;
     font-weight: 500;
-  
+
 
 }
 
@@ -269,40 +275,40 @@ footer {
 }
 
 footer ul {
-    padding:0;
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
+
 }
 
 footer ul li {
     list-style-type: none;
     padding-bottom: 1.5rem;
 
-    
+
 }
 
 footer ul li a {
-    color:#fff;
+    color: #fff;
     font-size: 1.6rem;
     font-weight: 300;
-    
-    
+
+
 
 }
 
 footer .footer__newsletter .form__mail {
-    border-radius:5rem;
+    border-radius: 5rem;
     padding: 1rem;
-    border:0;
+    border: 0;
     margin-right: .9rem;
     font-size: 1.3rem;
 }
 
 footer .footer__newsletter p {
 
-    margin-top:7rem;
+    margin-top: 7rem;
     color: #8C8C94;
     font-size: 1.2rem;
     text-align: right;
@@ -312,4 +318,78 @@ footer .footer__newsletter p {
     margin-top: 6.4rem;
     display: flex;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 375px) {
+
+    header nav ul,
+    header button {
+        display: none;
+    }
+
+    .header-burger {
+        display: inline-block;
+        font-size: 2rem;
+        color: #242E53;
+    }
+
+    header img {
+        width: 25vw;
+    }
+
+    .home-banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    .home-banner__text h1 {
+        font-size: 4rem;
+        letter-spacing: 0;
+    }
+
+    .home-banner__text p {
+        color: #8C8C94;
+        font-weight: 300;
+    }
+
+
+   .home-banner button {
+       align-self: center;
+   }
+
+    main {
+        flex-direction: column;
+        font-weight: 300;
+    }
+
+
+    .main__text-left {
+        align-self: center;
+        text-align: center;
+        color: #8C8C94;
+        
+    }
+
+.main__text-left h2 {
+    font-size: 2.5rem;
+}
+
+    .reviews .reviews__item:nth-child(2),
+    .reviews .reviews__item:nth-child(3) {
+        display: none;
+    }
+
+    .cta {
+        flex-direction: column;
+    }
+
+
+    footer {
+        flex-direction: column-reverse;
+    }
+
 }
