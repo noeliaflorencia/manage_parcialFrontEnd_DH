@@ -45,58 +45,75 @@
 
     </section>
 
-    <main>
-        <div class="main__text-left">
-            <h2>What´s different about Manage?</h2>
+    <section id="features">
+        <div class="features__left">
+            <h2>What's different about Manage?</h2>
             <p>Manage provides all the functionality your
-                teas needs, without the complexity. Our software is tailor-made for modern digital product teams</p>
+                teams needs, without the complexity.
+                Our software is tailor-made for modern digital product teams.
+            </p>
         </div>
-        <div class="main__text-right">
-            <article>
-                <span class="article__number">1</span>
-                <h3>Track company-wide progress</h3>
-                <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone
-                    level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
-            </article>
-            <article>
-                <span class="article__number">2</span>
-                <h3>Advanced built-in reports</h3>
-                <p>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard
-                    helps you build out the reports you need to keep key stakeholders informed.</p>
-            </article>
-            <article>
-                <span class="article__number">3</span>
-                <h3>Everything you need in one place</h3>
-                <p>Stop jumping from one service to another to communicate, store files, track tasks and share
-                    documents. Manage offers an all-in-one team productivity solution.</p>
-            </article>
+        <div class="features__right">
+            <article class="feature" id="feature__1">
 
+                <div class="feature__text">
+                    <div class="feature__title">
+                        <span class="feature__number">01</span>
+                        <h3>Track company-wide progress</h3>
+                    </div>
+                    <p>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the
+                        milestone
+                        level all the way done to the smallest of details. Never lose sight of the bigger picture again.
+                    </p>
+                </div>
+            </article>
+            <article class="feature" id="feature__2">
+                <div class="feature__text">
+                    <div class="feature__title">
+                        <span class="feature__number">02</span>
+                        <h3>Advanced built-in reports</h3>
+                    </div>
+                    <p>Set internal delivery estimates and track progress toward company goals. Our customisable
+                        dashboard
+                        helps you build out the reports you need to keep key stakeholders informed.</p>
+                </div>
+            </article>
+            <article class="feature" id="feature__3">
+                <div class="feature__text">
+                    <div class="feature__title">
+                        <span class="feature__number">03</span>
+                        <h3>Everything you need in one place</h3>
+                    </div>
+                    <p>Stop jumping from one service to another to communicate, store files, track tasks and share
+                        documents. Manage offers an all-in-one team productivity solution.</p>
+                </div>
+            </article>
         </div>
-    </main>
+    </section>
 
-    <section class="reviews">
+    <section id="testimonios">
         <h2>What they´ve said</h2>
-        <div class="reviews__group">
-            <article class="reviews__item">
-                <img class="reviews__item__img" src="img/avatar-anisha.png" alt="Foto Ali">
-                <div class="reviews__item__text">
+        <div class="cards">
+            <article class="card">
+                <img class="card__img" src="img/avatar-anisha.png" alt="Foto Ali">
+                <div class="card__text">
                     <h3>Ali Bravo</h3>
                     <p>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger
                         milestones
                         at all times keeps everyone motivated.”</p>
                 </div>
             </article>
-            <article class="reviews__item">
-                <img class="reviews__item__img" src="img/avatar-ali.png" alt="Foto Anisha">
-                <div class="reviews__item__text">
+            <article class="card">
+                <img class="card__img" src="img/avatar-ali.png" alt="Foto Anisha">
+                <div class="card__text">
                     <h3>Anisha</h3>
                     <p>“We have been able to cancel so many other subscriptions since using manage. There ir no more
                         cross-channel confusion and everyone is much more focused.”</p>
                 </div>
             </article>
-            <article class="reviews__item">
-                <img class="reviews__item__img" src="img/avatar-richard.png" alt="Foto Richard">
-                <div class="reviews__item__text">
+            <article class="card">
+                <img class="card__img" src="img/avatar-richard.png" alt="Foto Richard">
+                <div class="card__text">
                     <h3>Richard</h3>
                     <p>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t
                         stop
@@ -112,8 +129,8 @@
         <div class="cta__text">
             <span>Simplify hoy your team words today.</span>
         </div>
-        <div>
-            <button class="cta__btn">Get Started</button>
+        <div class="cta__btn">
+            <button>Get Started</button>
         </div>
 
 
@@ -150,12 +167,11 @@
         </div>
 
         <div class="footer__newsletter">
-            <form action="">
-                <input class="form__mail" type="text" name="email" placeholder="Update in your inbox...">
-                <input class="btn__newsletter" type="submit" name="submit" value="Go">
+            <form action="" method="post">
+                <input class="form__mail" id="email" type="email" name="email" placeholder="Update in your inbox...">
+                <input class="btn__newsletter" id="submitbtn" type="submit" name="submit" value="Go">
             </form>
-            <p>Copyright 2020. All Rights Reserved</p>
-
+            <span id="copyright">Copyright 2020. All Rights Reserved</span>
         </div>
     </footer>
 
